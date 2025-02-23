@@ -1,17 +1,17 @@
 public class Author {
-    //p
+    //prop
     private String name;
     private String email;
     private char gender;
 
-    //c
+    //const
     public Author (String name, String email, char gender){
         this.name = name;
         this.email = email;
         this.gender = gender;
     }
 
-    //b
+    //behavs
     public String getName(){
         return name;
     }

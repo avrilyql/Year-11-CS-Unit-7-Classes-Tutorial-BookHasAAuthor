@@ -39,7 +39,7 @@ public class Book {
     }
 
     public String toString(){
-        return "\'" + name + "\' by " + author.getName() + " (" + author.getGender() + ")" + " at " + author.getEmail();
+        return "'" + name + "' by " + author.getName() + " (" + author.getGender() + ")" + " at " + author.getEmail();
     }
 
 }
